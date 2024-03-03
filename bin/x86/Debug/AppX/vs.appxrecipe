@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-IDKL4ACA</Machine>
+    <WindowsUser>user</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>b7ef24d0-48d6-49cb-870d-f339ab304710</PackageIdentityName>
+    <PackageIdentityPublisher>CN=user</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B88D6857FAF5630595257B206A23BB808595063B9301D7AEE87A06F61B7988CC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b7ef24d0-48d6-49cb-870d-f339ab304710_1.0.0.0_x86__yzekw4x8qxe1g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b7ef24d0-48d6-49cb-870d-f339ab304710_yzekw4x8qxe1g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b7ef24d0-48d6-49cb-870d-f339ab304710</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=user</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-02-04T17:03:58.363</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\bin\x86\Debug\DodgeGame.Shared.exe">
+      <PackagePath>entrypoint\DodgeGame.Shared.exe</PackagePath>
+      <Modified>2023-02-04T17:03:57.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T20:24:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\system.drawing.common\7.0.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2022-10-18T16:30:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2022-07-15T15:17:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\lose.mp3">
+      <PackagePath>Assets\lose.mp3</PackagePath>
+      <Modified>2023-01-31T11:41:45.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\Cipher2.mp3">
+      <PackagePath>Assets\Cipher2.mp3</PackagePath>
+      <Modified>2023-01-17T21:02:02.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\speed.mp3">
+      <PackagePath>Assets\speed.mp3</PackagePath>
+      <Modified>2023-01-31T22:17:17.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\stomp.mp3">
+      <PackagePath>Assets\stomp.mp3</PackagePath>
+      <Modified>2023-01-30T21:32:15.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\win.mp3">
+      <PackagePath>Assets\win.mp3</PackagePath>
+      <Modified>2023-01-31T11:35:27.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\deadEnemy.wav">
+      <PackagePath>Assets\deadEnemy.wav</PackagePath>
+      <Modified>2023-01-31T11:14:34.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\enemy.jpg">
+      <PackagePath>Assets\enemy.jpg</PackagePath>
+      <Modified>2023-01-22T09:13:48.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\lose.jpg">
+      <PackagePath>Assets\lose.jpg</PackagePath>
+      <Modified>2023-01-17T12:50:19.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\win.jpg">
+      <PackagePath>Assets\win.jpg</PackagePath>
+      <Modified>2023-01-17T12:33:54.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\mario.png">
+      <PackagePath>Assets\mario.png</PackagePath>
+      <Modified>2023-01-22T09:13:59.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-12-14T08:22:54.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-12-14T08:22:54.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-12-14T08:22:54.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-12-14T08:22:54.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-12-14T08:22:54.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-12-14T08:22:54.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-12-14T08:22:54.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2023-01-15T08:08:40.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\bin\x86\Debug\DodgeGame.Shared.xr.xml">
+      <PackagePath>DodgeGame.Shared.xr.xml</PackagePath>
+      <Modified>2023-02-01T14:44:51.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2023-02-04T17:03:57.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2023-02-04T17:03:57.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2022-07-15T19:53:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-01-31T22:19:41.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\itamar learn c#\DodgeGame\DodgeGame.Shared\bin\x86\Debug\Core\DodgeGame.Shared.exe">
+      <PackagePath>DodgeGame.Shared.exe</PackagePath>
+      <Modified>2023-02-04T17:03:58.358</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
